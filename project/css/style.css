@@ -79,9 +79,6 @@ ul.side-nav a{
 	float: left;
 	
 }
-.col-sm-left{
-	
-}
 .col-why-us{
 	color: #7a8686;	
 }
@@ -114,9 +111,7 @@ padding-bottom: 7px;
 	margin: 0px 0px 0px 70px;
 		background-color: #f3f3f3;
 }
-.cols-sm-right{
 
-}
 .feature-col-main{
 	height: 220px;
 	
@@ -279,10 +274,7 @@ background-image: url("../images/footer.png");
 
 
 }
-.footer-div{
 
-	
-}
 .footer-lower{
 	
 	background-color:#6bb4ad;
@@ -378,10 +370,7 @@ background-image: url("../images/footer.png");
 	background-image: url("../images/img.png");
 }
 
-.dt-left{
-	
 
-}
 .dv-date{
 	
 	color: white;

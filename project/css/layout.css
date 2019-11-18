@@ -10,9 +10,7 @@
 li.list-menu{
 	padding: 0.75em 0.94em;
 }
-li.list-menus{
-	
-}
+
 .header-img{
 	margin: 1.25em 0em 0em 5.63em;
 }
@@ -72,7 +70,7 @@ width:28.13em;
 .info-team{
 	height: 32.50em;
 	margin: 4.38em auto;
-	width: 65.63em
+	width: 65.63em;
 	background-color: yellow;
 }
 .idea-msg
@@ -208,7 +206,7 @@ height: 350px;
 .mid-right{
 	height: 180px;
 	float: right;
-	color: white
+	color: white;
 	width: 115px;
 }
 .footer-right{
@@ -247,10 +245,7 @@ height: 350px;
 	background-image: url("../images/img.png");
 }
 
-.dt-left{
-	
 
-}
 .dv-date{
 	width: 95px;
 	height: 50px;
