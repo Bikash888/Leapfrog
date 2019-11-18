@@ -1,0 +1,121 @@
+.header-top{
+	background-image: url("../images/header.png");
+}
+
+.logo-holder{
+	margin-left: 4.56em;
+}
+
+ul.header-menu a{
+	color: white;
+	text-decoration: none;
+}
+
+
+li.list-menu {
+text-decoration: none;
+list-style-type: none;
+float: left;
+}
+.menu-items{	
+	float: right;
+	
+}
+
+ul.menu-right  a{
+	text-decoration: none;
+	list-style-type: none;
+	color: #838c8b;
+}
+
+.nav-direction{
+ background-color:#ececec;
+	height: 80px;
+}
+.about-us{
+	line-height: all;
+	color: #838c8b;
+	font-size: 16px;
+margin:2.19em 0em 0em 10.19em ;
+	text-decoration:none;
+
+}
+.main{
+	width: 1170px;
+	margin: 100px 85px 0 auto;
+	background-color: red;
+	height: auto;
+	
+}
+
+.slide-main{
+	width: 73.13em;
+	height: 43.75em;
+	
+}
+
+
+.second-slider{
+	width: 100%;
+	float: left;
+	height: 35em;
+	
+	margin-top: 50px;
+	
+}
+.left-slider{
+	width: 54.69em;
+	height: 100%;
+	
+	float: left;
+
+}
+
+.right-slide{
+	width: 17.19em;
+	
+	height: 100%;
+	float: right;
+	
+
+}
+.display-features{
+
+width: 100%;
+height: 21.25em;
+background-color: red;
+float: left;
+margin: 5.94em 0 auto;
+}
+
+.msg-holder{
+height: 100%;
+width: 17.19em;
+background-color: pink;
+
+
+}
+
+.info-holder{
+	width: 100%;
+	height: 19.69em;
+	background-color: black;
+}
+
+
+.button-holder{
+	width: 12.5em;
+	height: 3.44em;
+	background-color: #76c7c1;
+	margin: 17.81em 0em 2em 2.19em;
+	position: absolute;
+	float: left;
+
+}
+.read-more{
+	display: block;
+	width: 100%;
+	height: 100%;
+		text-align: center;
+	
+}
