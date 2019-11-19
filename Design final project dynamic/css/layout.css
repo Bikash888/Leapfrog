@@ -2,6 +2,9 @@
 	max-width: 100%;
 	height: 70px;
 }
+.logo{
+	height: 70px;
+}
 
 .main{
 	width: 78.5714%;
@@ -19,7 +22,7 @@
  float: left;
  text-decoration: none;
  list-style-type: none;
- margin: 0px 3px 0 auto;
+ margin: 0px 23px 0 auto;
 }
 .navbar ul{
 	float: right;
