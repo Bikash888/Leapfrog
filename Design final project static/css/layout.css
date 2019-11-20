@@ -3,50 +3,176 @@
 	height: 70px;  
 	padding-top: 20px;
 }
-.navbar{
-	
-	line-height: 70px;
-	float: right;
-}
-.navbar li,a{
- float: left;
- text-decoration: none;
- list-style-type: none;
- margin: 0px 0px 0px 22px;
-}
-.navbar ul{
-	float: right;
-}
 .info-holder{
-	width: 1100px;
+   width: 1100px;
 	
-	
-	float: right;
-	margin: 110px 125px 0 auto;
 }
-.left-info{
-	
-	width: 515px;	
+.left-info{	
+   width: 515px;	
 }
-
 .logo-left button
 {
-	width: 135px;
-	
+	width: 135px;	
 }
-
 .form-right{
 	width: 360px;
+}
+.header-main
+{
+width: 1100px;
+height: 70px;
+}
+.main-container
+{
+	height: 640px;	
+}
+.form-group button{
 	
+	height: 55px;
 }
 .form-group input{
 	width: 285px;
-	padding: 12px 20px 12px 20px;
-	margin: 16px;
-	border: none;
-	 border-bottom: 1px solid #d6d6d6;
-	 line-height: normal;
-	 outline: none;
-
+}
+.social-media-group{
+	height: 105px;
+}
+.social-media-left{
+	
+	width: 365px;
+	height: 65px;
+}
+.social-media-right{	
+	width: 625px;
+	height: 60px;
+}
+.tab-section-wrapper{
+	width: 1110px;
+	margin: 0px 0px 0px 143px;
+}
+.tab-main{
+	height: 595px;
+}
+.tab-wrapper{
+	height: 335px;
+	width: 1112px;
+}
+.tab-holder{
+	width: 112px;
+	height: 332px;
+}
+.tab{
+	height: 110px;
+}
+.tab-details-holder{
+	width: 475px;
+	height: 332px;
+}
+.tab-details-holder a{
+ width: 120px;
+}
+.reflect-image{
+	width: 320px;
+}
+.sub-list{
+	height: 595px;
+}
+.sublist-contain-wrapper{
+	width: 1105px;
+	height: 350px;
+}
+.sublist-details{
+	width: 435px;
+}
+.description img{
+    width: 42px;
+}
+.description{
+	width: 438px;
+}
+.standard-section{
+	height: 595px;
+}
+.standard-contain-wrapper{
+	width: 1105px;
+	height: 350px;
+}
+.why-awesome-section{
+	height: 595px;	
+}
+.service{
+	width: 1118px;
+}
+.thoughtful-design{
+	width: 350px;
+}
+.list-section{
+height: 885px;
+}
+.pricing-details-main{
+	width: 1112px;
+	height: 597px;
+}
+.basic{
+     height: 460px;
+	width: 343px;
+}
+.basic-plan{
+	width: 343px;
+}
+.basic-plan-feature{
+	width: 343px;
+}
+.basic-wrapper-mid{
+	width: 343px;
+}
+.review{	
+width: 1060px;
+}
+.customer-review{
+	height: 590px;
+}
+.rev-list{
+	width: 275px;
+}
+.rev-list-mid{
+	width: 275px;
+}
+.stylish-auxre{
+	height: 320px;
+}
+.style-title{
+	width: 735px;
+}
+.contact-title{
+	width: 1122px;
+	height: 425px;
+}
+.form{
+	height: 145px;
+	width: 525px;
+}
+.form-con{
+	width: 525px;
+}
+.form-gp input{
+	width: 475px;
+}
+.form-con-right{
+	width: 525px;
+}
+.msg textarea{
+	width: 475px;
+	height: 160px;
+}
+.form-gp {
+	width: 475px;
+	height: 145px;
+}
+footer{
+	height: 110px;
+}
+.copyright{
+	width: 200px;
+	height: 0px
 }
 
