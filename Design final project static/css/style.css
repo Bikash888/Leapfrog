@@ -1,13 +1,315 @@
-.header-main{
+.header-main
+{
 background-color: #000000;
+width: 1100px;
+margin: 0 auto;
+height: 70px;
+
 }
-.main{
-	
-	background-color: yellow;
-	
+.main-wrapper{
+	background-color: #000000;
 }
-.logo{
-	line-height: 70px;
+
+
+.logo
+{
+
 	float: left;
+}
+.navbar
+{
+	line-height: 70px;
+	float: right;
+}
+.navbar li,a
+{
+font-family: 'Open Sans', sans-serif;
+ float: left;
+ text-decoration: none;
+ list-style-type: none;
+ color: #c9c9c9;
+}
+
+.main-container
+{
+	height: 640px;
+	background-image: url("../images/state.jpg");
+}
+.info-holder
+{
+	float: right;	
+}
+.left-info
+{
+	float: left;
+	
+	
+}
+.logo-left h1
+{
+	margin: 25px 0px 15px 0px;
+	line-height: normal;
+	color: #ffffff;
+	font-family: 'Raleway', sans-serif;
+}
+.logo-left p{
+	margin: 15px 0 auto;
+	line-height: normal;
+	color: #d7d7d7;
+	font-family: 'Raleway', sans-serif;
+}
+.logo-left a
+{
+	text-decoration: none;
+	padding:15px 35px;
+	border: 1px solid #ffffff;
+	display: block;
+	margin: 35px 0px 0px 0px;
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+.form-right{
+	
+	background-color: #ffffff;
+	float: right;
+}
+.form-right h2{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	background-color: #f5f5f5;
+	padding: 22px;
+}
+.form-right span{
+	color: #ff8b38;
+}
+
+.form-group button{
+	text-decoration: none;
+	height: 55px;
+	background-color: #ff8b38;
+width: 100%;
+	text-align: center;
+	margin: 50px 0 auto;
+	color: white;
+}
+.form-group input{
+	width: 285px;
+	padding: 12px 20px 12px 20px;
+	margin: 16px;
+	border: none;
+	 border-bottom: 1px solid #d6d6d6;
+	 line-height: normal;
+	 outline: none;
+
+}
+
+.social-media-group{
+	background-color: red;
+	height: 105px;
+}
+.social-media-left{
+	background-color: green;
+	width: 365px;
+	height: 65px;
+	margin: 25px 0px 0px 92px;
+	float: left;
+	
+	
+}
+.social-media-right{
+	background-color: yellow;
+	width: 625px;
+	height: 60px;
+	margin: 25px 125px 0px 0px;
+	float: right;
+	
+	
+}
+.social-media-right a{
+	float: right;
+	margin: 0px 0px 0px 60px;
+}
+.tab-section-wrapper{
+	width: 1110px;
+	background-color: blue;
+	margin: 0px 0px 0px 143px;
+
+}
+
+.tab-main{
+	background-color: green;
+	height: 595px;
+}
+.tab-wrapper{
+	
+	height: 335px;
+	margin: 147px 0px 0px 124px;
+	width: 1112px;
+	float: left;
+	
+}
+.tab-holder{
+	width: 112px;
+	height: 332px;
+	float: left;
+	
+	
+
+}
+.tab{
+	height: 110px;
+	
+}
+
+.tab a{
+	padding: 45px 42px 42px 25px;
+	background-color: #333333;
+	margin: 0px;
+
+}
+
+.tab :hover{
+	background-color: #ff8b38; 
+}
+
+.tab-details-holder{
+	width: 475px;
+	height: 332px;
+	
+	float: left;
+	margin: 0px 0px 0px 100px;
+}
+.tab-details-holder p{
+ margin: 50px 0 auto;
+ color: #86878b;
+}
+.tab-details-holder a{
+ margin: 58px 0 auto;
+ background-color: #ff8b38;
+ width: 120px;
+ line-height: 50px;
+ text-align: center;
+ color: white;
+}
+
+.reflect-image{
+	width: 320px;
+	float: left;
+	margin: 15px 0px 0px 105px;
+}
+.sub-list{
+	
+	height: 595px;
+}
+.sublist-contain-wrapper{
+	width: 1105px;
+	height: 350px;
+	
+	float: left;
+	margin: 110px 0px 0px 130px;
+}
+.sublist-image{
+	float: left;
+	margin: 0px;
+}
+.sublist-details{
+	float: right;
+	width: 435px;
+	
+}
+.divider-img{
+	margin: 25px 0px 25px 0px;
+}
+.description img{
+	float: left;
+    width: 42px;
+    margin: 0px 30px 0 auto;
+}
+.description{
+	width: 438px;
+	margin: 50px 0 auto;
+	background-color: white;
+}
+.standard-section{
+	height: 595px;
+}
+.standard-contain-wrapper{
+	width: 1105px;
+	height: 350px;
+	
+	float: left;
+	margin: 110px 0px 0px 130px;
+}
+.standard-image{
+	float: right;
+	margin: 0px;
+}
+.standard-details{
+	float: left;
+	width: 435px;
+	
+}
+.divider-img{
+	margin: 25px 0px 25px 0px;
+	
+}
+.standard-details p{
+	margin: 27px 0 auto;
+	
+}
+
+.title-awesome{
+width: 405px;
+height: 105px;
+
+float: right;
+margin: 109px 500px 0 auto;
+text-align: center;
+
+}
+.why-awesome-section{
+	height: 595px;
+	background-color: blue;
+}
+.divider-img-awesome{
+	margin: 15px 20px 15px 0px;
+
+
+}
+.awesome-details{
+	text-align: center;
+}
+.service{
+	
+	width: 1118px;
+	float: right;
+	margin: 80px 125px 0px 0px;
+}
+.thoughtful-design{
+    margin: 0 22px 0px 0px;
+    
+	width: 350px;
+  
+	float: left;
+	
+}
+.thoughtful-design figure
+{
+	margin: 0px 0px 0px 140px;
+}
+.thoughtful-design h1{
+text-align: center;
+margin: 20px 0 20px 0;
+color: #333333;
+
+}
+.thoughtful-design p{
+text-align: center;
+margin: 20px 0 20px 0;
+color: #a9aaac;
+
 
 }
