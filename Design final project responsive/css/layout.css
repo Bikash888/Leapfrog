@@ -1,29 +1,178 @@
-.header-main{
-	max-width: 1400px;
-	height: 70px;
-}
+
 .logo{
-	height: 70px;
+	height: 70px;  
+	padding-top: 20px;
 }
-
-.main{
-	width: 78.5714%;
-	margin: 0 auto;
-	line-height: 70px;
-}
-
-.navbar{
-	width: auto;
-	line-height: 70px;
-	float: right;
+.info-holder{
+   width: 78.5714%;
 	
 }
-.navbar li,a{
- float: left;
- text-decoration: none;
- list-style-type: none;
- margin: 0px 23px 0 auto;
+.left-info{	
+   width: 46.8181%;	
 }
-.navbar ul{
-	float: right;
+.logo-left button
+{
+	width: 135px;	
 }
+.form-right{
+	width: 360px;
+}
+.header-main
+{
+width: 78.91%;
+height: 70px;
+}
+.main-container
+{
+	height: 640px;	
+}
+.form-group button{
+	
+	height: 55px;
+}
+.form-group input{
+	width: 285px;
+}
+.social-media-group{
+	height: 105px;
+}
+.social-media-left{
+	
+	width: 26.0714%;
+	height: 65px;
+}
+.social-media-right{	
+	width: 56.8181%;
+	height: 60px;
+}
+.tab-section-wrapper{
+	width: 1110px;
+	margin: 0px 0px 0px 143px;
+}
+.tab-main{
+	height: 595px;
+}
+.tab-wrapper{
+	height: 335px;
+	width: 1112px;
+}
+.tab-holder{
+	width: 112px;
+	height: 332px;
+}
+.tab{
+	height: 110px;
+}
+.tab-details-holder{
+	width: 475px;
+	height: 332px;
+}
+.tab-details-holder a{
+ width: 120px;
+}
+.reflect-image{
+	width: 320px;
+}
+.sub-list{
+	height: 595px;
+}
+.sublist-contain-wrapper{
+	width: 1105px;
+	height: 350px;
+}
+.sublist-details{
+	width: 435px;
+}
+.description img{
+    width: 42px;
+}
+.description{
+	width: 438px;
+}
+.standard-section{
+	height: 595px;
+}
+.standard-contain-wrapper{
+	width: 79.4285%;
+	height: 350px;
+}
+.why-awesome-section{
+	height: 595px;	
+}
+.service{
+	width: 83.8571%;
+}
+.thoughtful-design{
+	width: 350px;
+}
+.list-section{
+height: 885px;
+}
+.pricing-details-main{
+	width: 79.4287%;
+	height: 597px;
+}
+.basic{
+     height: 460px;
+	width: 343px;
+}
+.basic-plan{
+	width: 343px;
+}
+.basic-plan-feature{
+	width: 343px;
+}
+.basic-wrapper-mid{
+	width: 343px;
+}
+.review{	
+width: 95.4954%;
+}
+.customer-review{
+	height: 590px;
+}
+.rev-list{
+	width: 275px;
+}
+.rev-list-mid{
+	width: 275px;
+}
+.stylish-auxre{
+	height: 320px;
+}
+.style-title{
+	width: 735px;
+}
+.contact-title{
+	width: 80.1428%;
+	height: 425px;
+}
+.form{
+	height: 145px;
+	width: 525px;
+}
+.form-con{
+	width: 525px;
+}
+.form-gp input{
+	width: 90.4761%;
+}
+.form-con-right{
+	width: 525px;
+}
+.msg textarea{
+	width: 475px;
+	height: 160px;
+}
+.form-gp {
+	width: 475px;
+	height: 145px;
+}
+footer{
+	height: 110px;
+}
+.copyright{
+	width: 14.2857%;
+	height: 0px
+}
+
