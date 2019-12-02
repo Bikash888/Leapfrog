@@ -1,0 +1,140 @@
+<html lang="en">
+
+<head>
+    <title>JavaScript Car Game</title>
+    <style>
+        .startScreen {
+            text-align: center;
+            border: 1px solid red;
+            padding: 15px;
+            margin: auto;
+            position: absolute;
+            background-color: red;
+            left: 44.5%;
+            top: 100px;
+            color: white;
+            z-index: 1;
+            width: 180px;
+            font-family: sans-serif;
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        .car,
+        .enemy {
+            position: absolute;
+            bottom: 100px;
+            margin: auto;
+            width: 50px;
+            height: 100px;
+            background-color: white;
+            font-size: 20px;
+            text-align: center;
+            vertical-align: middle;
+            background-image: url(car.png);
+            background-size: cover;
+        }
+        
+        .line {
+            position: absolute;
+            height: 100px;
+            width: 10px;
+            margin-left: 95px;
+            background-color: white;
+        }
+        
+        .gameArea {
+            background-color: black;
+            width: 200px;
+            height: 100%;
+            overflow: hidden;
+            position: relative;
+            margin: auto;
+        }
+        
+        .score {
+            background-color: black;
+            height: 60px;
+            color: white;
+            text-align: center;
+            font-size: 20px;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="score"></div>
+    <div class="game">
+        <div class="startScreen">Click here to start game <br> Use arrow keys to move</div>
+        <div class="gameArea"></div>
+    </div>
+
+    <script>
+        const score = document.querySelector(".score");
+        const startScreen = document.querySelector(".startScreen");
+        const gameArea = document.querySelector(".gameArea");
+
+        let player = {
+            speed: 10,
+            score: 0
+        };
+
+        let keys = {
+            ArrowUp: false,
+            ArrowDown: false,
+            ArrowLeft: false,
+            ArrowRight: false
+        };
+
+        startScreen.addEventListener("click", start);
+        document.addEventListener("keydown", pressOn);
+        document.addEventListener("keyup", pressOff);
+
+        function moveLines() {
+            var lines = document.querySelectorAll(".line");
+            console.log(lines.length);
+            lines.forEach(function(item) {
+                if (item.y >= 1500) {
+                    item.y -= 1500;
+                }
+                item.y += player.speed;
+                item.style.top = item.y + "px";
+                console.log(item.y);
+            })
+        }
+
+        function playGame() {
+
+            moveLines();
+
+            window.requestAnimationFrame(playGame);
+
+        }
+
+
+
+        function start() {
+            startScreen.classList.add("hide");
+            // gameArea.classList.remove("hide");
+            gameArea.innerHTML = "";
+            player.start = true;
+            player.score = 0;
+            for (let i = 0; i < 10; i++) {
+                let div = document.createElement("div");
+                div.classList.add("line");
+                div.y = i * 150;
+
+                div.style.top = (i * 150) + "px";
+                gameArea.appendChild(div);
+            }
+
+            window.requestAnimationFrame(playGame);
+
+        }
+    </script>
+</body>
+
+</html>
